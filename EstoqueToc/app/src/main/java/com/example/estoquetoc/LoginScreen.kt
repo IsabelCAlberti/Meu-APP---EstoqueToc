@@ -147,7 +147,7 @@ fun LoginScreen(navController: NavHostController? = null) { // Tornando navContr
             Spacer(modifier = Modifier.height(32.dp))
             Button(
                 onClick = {
-                    navController?.navigate("LoginScreen")
+                    navController?.navigate("faturamento")
                 },
                 modifier = Modifier
                     .fillMaxWidth()
@@ -165,7 +165,7 @@ fun LoginScreen(navController: NavHostController? = null) { // Tornando navContr
             Spacer(modifier = Modifier.height(4.dp))
             TextButton(
                 onClick = {
-                    navController?.navigate("CadastroUsuarioScreen")
+                    navController?.navigate("cadastroUsuario")
                 }
             ) {
                 Text(

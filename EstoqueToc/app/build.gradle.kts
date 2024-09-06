@@ -88,4 +88,3 @@ dependencies {
     debugImplementation(libs.androidx.ui.test.manifest)
 }
 
-// Versões extras de dependências podem ser incluídas no "libs.versions.toml" ou em um arquivo equivalente
